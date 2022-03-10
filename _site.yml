@@ -1,0 +1,12 @@
+name: "HSH206"
+title: "HSH206"
+description: |
+  HSH206
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

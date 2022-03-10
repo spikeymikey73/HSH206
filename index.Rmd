@@ -1,0 +1,25 @@
+---
+title: "HSH206"
+description: |
+  Human Development and Healthy Families
+site: distill::distill_website
+---
+
+| Week | Commencing | Topic | Assessment due date |
+|------|------------|-------|---------------------|
+| 1 | 7 MAR 22 | What is human development? | |
+| 2 | 14 MAR 22 | Theoretical approaches to human development | |
+| 3 | 21 MAR 22 | Family development theories | |
+| 4 | 28 MAR 22 | Prenatal development and birth | |
+| 5 | 4 APR 22 | The dependent years -Infancy | Assessment 2 (Group/Team Charter) due by 8:00pm AEST Thursday 7 APR 22 |
+| 6 | 11 APR 22 | The dependent years - Early childhood | Assessment 1 due by 8:00pm AEST Monday 11 APR 22 |
+| 7 | 25 APR 22 | The dependent years - Middle childhood | |
+| 8 | 2 MAY 22 | Increasing independence -Adolescence | |
+| 9 | 9 MAY 22 | The independence years - Young adulthood | Assessment 2 (Slides andnarration) due by 8:00pm AEST Thursday 12 MAY 22 |
+| 10 | 16 MAY 22 | The independence years - Middle adulthood | |
+| 11 | 23 MAY 22 | The third age - Older adulthood | |
+| 12 | 30 MAY 22 | Study period Revision for AT3 Assessment 3 due by 8:00pm AEST Friday 3 June 22 |
+
+Intra-trimester break: Friday 15 APR - Sunday 24 APR 22 (inclusive)
+
+ANZAC Day Public Holiday (University closed) - Monday 25 APR 22 Assessment 2 (Peer and self assessment) due by 8:00pm AEST 
