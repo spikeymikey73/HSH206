@@ -3,7 +3,7 @@
     "path": "~/Documents/BPsychSci/HSH206/Readings.Rmd",
     "project_path": "Readings.Rmd",
     "type": "r_markdown",
-    "hash": "1976174188",
+    "hash": "3925627144",
     "contents": "",
     "dirty": false,
     "created": 1646876246013.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "3,40",
-        "scrollLine": "0"
+        "cursorPosition": "23,79",
+        "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1646876757,
+    "lastKnownWriteTime": 1646992472,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1646876757774,
+    "last_content_update": 1646992472801,
     "read_only": false,
     "read_only_alternatives": []
 }
