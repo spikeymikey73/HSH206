@@ -2,7 +2,7 @@
 title: "HSH206"
 description: |
   Human Development and Healthy Families
-site: distill::distill_website
+output: html_document
 ---
 
 | Week | Commencing | Topic | Assessment due date |

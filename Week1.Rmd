@@ -2,7 +2,7 @@
 title: "Untitled"
 description: |
   A new article created using the Distill format.
-output: distill::distill_article
+output: html_document
 ---
 
 ---
@@ -94,9 +94,7 @@ The above concepts also differ from one culture to another, based on race or __e
 
 ***
 
-## Developmental Theories and the Issues that they raise.
-
-![Domains of Human Development](Images/Week1/figure2_2.png)
+## Developmental Theories and the Issues that they raise. {.tabset}
 
 ### Nature Vs. Nurture
 
@@ -116,5 +114,10 @@ This issue looks at the gradual and quantitative modes (continuity) of developme
 
 ### Universality and Context Specificity
 
+Universality posits that development is uniform across cultures and groups, while context specificity contends that development markers and milestones differ between families, cultures and groups. 
 
-***
+### Summary
+![Domains of Human Development](Images/Week1/figure2_2.png)
+
+
+## {-}

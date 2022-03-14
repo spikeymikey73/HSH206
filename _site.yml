@@ -33,4 +33,4 @@ navbar:
           href: Week10.html
         - text: "Week 11"
           href: Week11.html
-output: distill::distill_article
+output: html_document
