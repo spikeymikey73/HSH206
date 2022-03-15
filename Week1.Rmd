@@ -1,7 +1,5 @@
 ---
-title: "Untitled"
-description: |
-  A new article created using the Distill format.
+title: "Week 1"
 output: html_document
 ---
 
@@ -118,6 +116,5 @@ Universality posits that development is uniform across cultures and groups, whil
 
 ### Summary
 ![Domains of Human Development](Images/Week1/figure2_2.png)
-
 
 ## {-}
