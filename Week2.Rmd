@@ -13,30 +13,53 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Freud: Psychoanalytic theory
 
-**Psychoanalytic Theory**: The theoretical perspective that emphasises the importance of unconscious motivations, emotional conflicts and early experiences for shaping personality and behaviour.
+>_The id communicates its basic needs, the ego restrains the impulsive id long enough to find realistic ways to satisfy these needs, and the superego decides whether the ego’s problem-solving strategies are morally acceptable._
+>
+>**Psychoanalytic Theory**: The theoretical perspective that emphasises the >importance of unconscious motivations, emotional conflicts and early experiences >for shaping personality and behaviour.
+>
+>**Instincts**: Inborn biological forces assumed to motivate behaviour.
+>
+>**Unconscious Motivation**: The power of instincts and other inner forces, such >as feelings and conflicts, which influence thinking and behaviour without >awareness.
+>
+>**id**: The inborn component of the personality that is driven by impulsive, >irrational and selfish urges.
+>
+>**ego**: The rational component of the personality that seeks to satisfy urges >in a realistic manner.
+>
+>**superego**: The component of the personality that consists of the individual’s >internalised moral standards.
+>
+>**libido**: Psychic energy of the sex instinct.
+>
+>**psychosexual stages**: Freud’s five stages of development (oral, anal, >phallic, latency and genital) associated with biological maturation and shifts >in the libido.
+>
+>**identification**: with same sex parent – by taking on his mother / father’s >attitudes and behaviours, which are part of the superego.
+>
+>**fixation**: Defence mechanism in which development is arrested and part of the >libido remains tied to an early stage of development (arrested development).
+>
+>**Oedipus / Electra Complex**: Psychic conflict that 3 - 6 year old boys/girls >experience when they develop an incestuous desire for their mothers/fathers and >a jealous and hostile rivalry with their fathers.
+>
+>**Regression**: A defence mechanism (similar to fixation or identification) of >retreating to an earlier period of development to avoid anxiety and discomfort >at a higher level, allowing us to function despite anxiety.
 
-**Instincts**: Inborn biological forces assumed to motivate behaviour.
 
-**Unconscious Motivation**: The power of instincts and other inner forces, such as feelings and conflicts, which influence thinking and behaviour without awareness.
-
-**id**: The inborn component of the personality that is driven by impulsive, irrational and selfish urges.
-
-**ego**: The rational component of the personality that seeks to satisfy urges in a realistic manner.
-
-**superego**: The component of the personality that consists of the individual’s internalised moral standards.
-
-**libido**: Psychic energy of the sex instinct.
-
-**psychosexual stages**: Freud’s five stages of development (oral, anal, phallic, latency and genital) associated with biological maturation and shifts in the libido.
-
-**fixation**: Defence mechanism in which development is arrested and part of the libido remains tied to an early stage of development.
-
-**Oedipus / Electra Complex**: Psychic conflict that 3 - 6 year old boys/girls experience when they develop an incestuous desire for their mothers/fathers and a jealous and hostile rivalry with their fathers.
 
 #### Erikson: Psychosocial theory
 
+> In contrast to Freud's theory, Erikson focussed more on:
+>
+> - the social impact of development rather than sexual,
+> - rational development rather than selfish and irrational,
+> - activity and the ability for people to adapt to, or overcome damaging early experiences, and
+> - the notion that development continued after adolescence.
+>
+
+> In comparison to Freud:
+>
+> _"Upward in consciousness, outward to the social world and forward throughout the lifespan"_
+>
+
+> **psychosocial stages**: Erikson’s eight stages of development (trust, autonomy, initiative, industry, identity, intimacy, generativity and integrity), which emphasise social over maturational influences as drivers of development.
 
 
+#### Psychoanalytic theories: Side by Side
 |            | Freud's Psychosexual Stages |                                                                                                                                                                      | Erikson's Psychosocial Stages |                                                                                                                                                                                |
 |:----------:|:---------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Age Range  | Stage                       | Description                                                                                                                                                          | Stage                         | Description                                                                                                                                                                    |
@@ -49,11 +72,29 @@ knitr::opts_chunk$set(echo = TRUE)
 | 40 to 65   |                             |                                                                                                                                                                      | Generativity vs stagnation    | Middle-aged adults must feel that they are producing something that will outlive them, either as parents or as workers; otherwise, they will become stagnant and self-centred. |
 | 65+        |                             |                                                                                                                                                                      | Integrity vs despair          | Older adults must come to view their lives as meaningful to face death without worries and regrets.                                                                            |
 
-#### Psychoanalytic theories: Contributions and weaknesses
-
 ### Learning
 
+#### Pavlov and Watson: Classical conditioning
+
+![]()
+
+#### Skinner: Operant conditioning
+
+#### Bandura: Social cognitive theory
+
+#### Summary
+
+|  Learning theorist  							 						 					 |  						  							  								 Type of learning  							 						 					       |  						  							  								 What it involves  							 						 					                                                                                                                 |  						  							  								 What is learned  							 						 					                                                                                                     |
+|-----------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+|  						  							  								 John Watson  							 						 					       |  						  							  								 Classical conditioning  							 						 					 |  						  							  								 A stimulus comes to elicit a response through its association with an unconditioned stimulus.  							 						 					                                    |  						  							  								 Emotional reactions (e.g. pleasant associations, phobias)  							 						 					                                                           |
+|  						  							  								 B. F. Skinner  							 						 					     |  						  							  								 Operant conditioning  							 						 					   |  						  							  								 Learning involves reacting to the consequences of one’s behaviour (reinforcement and punishment).  							 						 					                                |  						  							  								 Skills; good and bad habits  							 						 					                                                                                         |
+|  						  							  								 Albert Bandura  							 						 					    |  						  							  								 Observational learning  							 						 					 |  						  							  								 Learning occurs through vicarious reinforcement or punishment by watching a model and the consequences of the model’s behaviour.  							 						 					 |  						  							  								 Skills, cognitions and behaviours, including ones  that the learner has not been directly reinforced for displaying  							 						 					 |
+
 ### Cognitive
+
+#### Piaget: Cognitive developmental theory
+
+#### Vygotsky: Sociocultural theory
 
 ## {-}
 
