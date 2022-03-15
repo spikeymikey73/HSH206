@@ -76,7 +76,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Pavlov and Watson: Classical conditioning
 
-![]()
+![Classical Conditioning](Images/Week2/Conditional.png)
 
 #### Skinner: Operant conditioning
 
