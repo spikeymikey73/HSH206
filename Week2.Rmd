@@ -5,6 +5,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(DiagrammeR)
 ```
 
 ## Theories {.tabset}
@@ -106,8 +107,20 @@ knitr::opts_chunk$set(echo = TRUE)
 >
 >**reciprocal determinism**: The notion in social cognitive theory that human development is shaped by the continuous interaction between the person, the person’s behaviour and their environment. People choose, build and change their environments; they are not just shaped by them.
 >
->#### Summary
->
+>```{r echo = FALSE}
+mermaid("
+graph LR;
+  A[Person]
+  B[Behaviour]
+  C[Environment]
+
+  A --> B
+  B --> C
+  C --> A
+")
+>```
+
+#### Summary
 >|  Learning theorist  							 						 					 |  						  							  								 Type of learning  							 						 					       |  						  							  								 What it involves  							 						 					                                                                                                                 |  						  							  								 What is learned  							 						 					                                                                                                     |
 >|-----------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 >|  						  							  								 John Watson  							 						 					       |  						  							  								 Classical conditioning  							 						 					 |  						  							  								 A stimulus comes to elicit a response through its association with an unconditioned stimulus.  							 						 					                                    |  						  							  								 Emotional reactions (e.g. pleasant associations, phobias)  							 						 					                                                           |
@@ -117,6 +130,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Cognitive
 
 #### Piaget: Cognitive developmental theory
+
+
 
 #### Vygotsky: Sociocultural theory
 
