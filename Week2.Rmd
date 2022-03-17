@@ -131,9 +131,23 @@ graph LR;
 
 #### Piaget: Cognitive developmental theory
 
-
+>**cognitive developmental theory**: Piaget’s theory of development which emphasises the role of experience and active exploration interacting with biological maturation as the drivers for cognitive development.
+>
+>| Age range          | Stage               | Description                                                                                                                                                                                                                                                                                                                                 |
+|--------------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+>| Birth - 2         | Sensorimotor        | Infants use their senses and motor actions to explore and understand the world. At the start they have only innate reflexes, but they develop increasingly ‘intelligent’ actions. By the end, they are capable of symbolic thought using images or words and can therefore mentally plan solutions to problems.                             |
+>| 2 - 7             | Preoperational      | Preschoolers use their capacity for symbolic thought to develop language, engage in pretend play and solve problems. But their thinking is not yet logical; they are egocentric (unable to take others’ perspectives) and are easily fooled by perceptions, failing ‘conservation’ problems because they cannot rely on logical operations. |
+>| 7 - 11            | Concrete Operations | School-age children acquire concrete logical operations that allow them to mentally classify, add and otherwise act on concrete objects in their heads. They can solve practical, real-world problems through a trial-and-error approach but have difficulty with hypothetical and abstract problems.                                       |
+>| 11 - 12+ | Formal Operations   | Adolescents can think about abstract concepts and purely hypothetical possibilities and can trace the long- range consequences of possible actions. With age and experience, they can form hypotheses and systematically test them using the scientific method.                                                                             |
+>
+>**constructivism**: The position that humans actively create their own understandings of the world from their experiences, as opposed to being born with innate ideas or being programmed by the environment.
+>
 
 #### Vygotsky: Sociocultural theory
+>
+>**sociocultural theory**: Vygotsky’s theory of development, which emphasises the role of the social and cultural context for cognitive development.
+>
+>**social constructivism**: The position that humans actively create their own understandings of the world from their social interactions and exposure to cultural tools such as language.
 
 ## {-}
 
