@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Week 4</title>
+
+<script src="site_libs/header-attrs-2.12/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">Unit Guide</a>
+</li>
+<li>
+  <a href="Readings.html">Reading List</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Content
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Week1.html">Week 1</a>
+    </li>
+    <li>
+      <a href="Week2.html">Week 2</a>
+    </li>
+    <li>
+      <a href="Week3.html">Week 3</a>
+    </li>
+    <li>
+      <a href="Week4.html">Week 4</a>
+    </li>
+    <li>
+      <a href="Week5.html">Week 5</a>
+    </li>
+    <li>
+      <a href="Week6.html">Week 6</a>
+    </li>
+    <li>
+      <a href="Week7.html">Week 7</a>
+    </li>
+    <li>
+      <a href="Week8.html">Week 8</a>
+    </li>
+    <li>
+      <a href="Week9.html">Week 9</a>
+    </li>
+    <li>
+      <a href="Week10.html">Week 10</a>
+    </li>
+    <li>
+      <a href="Week11.html">Week 11</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Week 4</h1>
+
+</div>
+
+
+<div id="prenatal-stages" class="section level2 tabset">
+<h2 class="tabset">Prenatal Stages</h2>
+<div id="germinal-period-1---14-days" class="section level3">
+<h3>Germinal Period (1 - 14 days)</h3>
+<ul>
+<li><p>The <strong>zygote</strong> divides many times through <strong>mitosis</strong>, forming the <strong>blastocyst</strong>, a hollow ball of about 150 cells that is the size of the head of a pin.</p></li>
+<li><p>Only about half of all fertilised ova are successfully implanted in the uterus.</p></li>
+<li><p>Although estimates vary widely, up to one third of pregnancies are short-lived and end in miscarriage. Many of these early losses are because of genetic defects.</p></li>
+</ul>
+<table>
+<colgroup>
+<col width="8%" />
+<col width="91%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Day</th>
+<th align="left">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="left">Fertilisation usually occurs within 24 hours of ovulation.</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="left">The single-celled zygote begins to divide 24–36 hours after fertilisation.</td>
+</tr>
+<tr class="odd">
+<td align="center">3 - 4</td>
+<td align="left">The cellular mass has 16 cells and is called a morula; it is travelling down the fallopian tube to the uterus.</td>
+</tr>
+<tr class="even">
+<td align="center">5</td>
+<td align="left">An inner cell mass forms; the entire mass is called a blastocyst and is the size of a pinhead.</td>
+</tr>
+<tr class="odd">
+<td align="center">6 - 7</td>
+<td align="left">The blastocyst attaches to the wall of the uterus.</td>
+</tr>
+<tr class="even">
+<td align="center">8 - 14</td>
+<td align="left">The blastocyst becomes fully embedded in the wall of the uterus. It now has about 250 cells.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="embryonic-period-3---8-weeks" class="section level3">
+<h3>Embryonic Period (3 - 8 weeks)</h3>
+<p><strong>Embryonic period</strong>: Second phase of prenatal development, lasting from the third through the eighth week after conception, during which the major organs and anatomical structures begin to develop.</p>
+<p><strong>Placenta</strong>: The organ that provides the oxygen and nourishment needs of the unborn child and eliminates its metabolic wastes.</p>
+<p><strong>Organogenesis</strong>: The process, occurring during the embryonic period, in which every major organ begins to take shape.</p>
+<table>
+<colgroup>
+<col width="2%" />
+<col width="97%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Week</th>
+<th align="left">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">3</td>
+<td align="left">Now an embryo, the person-to-be is just 2 mm long. It has become elongated, and three layers are emerging – the ectoderm, mesoderm and endoderm.</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="left">The embryo is so curved that the two ends almost touch. The outer layer (ectoderm) folds into the neural tube. From the mesoderm, a tiny heart forms and begins to beat. The endoderm differentiates into a gastrointestinal tract and lungs. Eyes develop.</td>
+</tr>
+<tr class="odd">
+<td align="center">5</td>
+<td align="left">Ears, mouth and throat take shape. Arm and leg buds appear. The handplate from which fingers will emerge appears. The heart divides into two regions, and the brain differentiates into forebrain, midbrain and hindbrain.</td>
+</tr>
+<tr class="even">
+<td align="center">6 - 7</td>
+<td align="left">The embryo is about 2.5 cm long. The heart divides into four chambers. Fingers emerge from the handplate, and primitive facial features become evident. The important process of sexual differentiation begins.</td>
+</tr>
+<tr class="odd">
+<td align="center">8</td>
+<td align="left">Most structures and organs are present. Ovaries and testes are evident. The embryo begins to straighten and assumes a more human appearance.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="foetal-period-9---38-weeks" class="section level3">
+<h3>Foetal Period (9 - 38 weeks)</h3>
+<p><strong>Proliferation</strong>: An intense period of brain cell growth originating from stem cells undergoing rapid cell division.</p>
+<p><strong>Migration</strong>: The process by which brain cells travel to their intended location in the nervous system via chemical signals or being pushed along with the growth and movement of other brain cells.</p>
+<p><strong>Differentiation</strong>: The progressive transformation of brain cells that results in their taking on different characteristics and functions depending on where they end up in the brain.</p>
+<p><strong>Age of Viability</strong>: A point at around the 24th prenatal week when a foetus may survive outside the uterus.</p>
+<table>
+<colgroup>
+<col width="4%" />
+<col width="95%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Week</th>
+<th align="left">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">9</td>
+<td align="left">Bone tissue emerges, and the embryo becomes a foetus. The head of the foetus looks huge relative to the rest of the body – it takes up about half the total length of the foetus. The foetus can open and close its mouth and turn its head.</td>
+</tr>
+<tr class="even">
+<td align="center">10 - 12</td>
+<td align="left">Fingers and toes are clearly formed. External genitalia have developed. Movements have increased substantially – arms and legs kick vigorously, but the foetus is still too small for the mother to feel all these movements. The foetus also shows ‘breathing’ movements with its chest and some reflexes.</td>
+</tr>
+<tr class="odd">
+<td align="center">13 - 16</td>
+<td align="left">The heartbeat should be audible with a stethoscope. Foetal movements may become apparent to the mother. The foetus is about 11.5 cm long, and the skeleton is becoming harder.</td>
+</tr>
+<tr class="even">
+<td align="center">17 - 22</td>
+<td align="left">Fingernails and toenails, hair, teeth buds and eyelashes grow. Brain development is phenomenal, and brainwaves are detectable.</td>
+</tr>
+<tr class="odd">
+<td align="center">23 - 25</td>
+<td align="left">These weeks mark the age of viability, when the foetus has a chance of survival outside the womb. It is about 30 cm long and weighs about half a kilogram.</td>
+</tr>
+<tr class="even">
+<td align="center">26 - 32</td>
+<td align="left">The foetus gains weight and its brain grows. The nervous system becomes better organised.</td>
+</tr>
+<tr class="odd">
+<td align="center">33 - 38</td>
+<td align="left">The last 6 weeks of a full-term pregnancy bring further weight gain and brain activity. The lungs mature and begin to expand and contract.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="section" class="section level2 unnumbered">
+<h2 class="unnumbered"></h2>
+</div>
+<div id="teratogens" class="section level2 tabset">
+<h2 class="tabset">Teratogens</h2>
+<p><strong>Teratogen</strong>: Any disease, drug or other environmental agent that can harm a developing foetus.</p>
+<div id="drugs" class="section level3">
+<h3>Drugs</h3>
+<table>
+<colgroup>
+<col width="3%" />
+<col width="96%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Drug</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alcohol</td>
+<td>Heavy prenatal exposure to alcohol can result in a cluster of symptoms referred to as foetal alcohol syndrome (FAS), in which affected children have a small head and distinctive facial abnormalities, and physically lag behind their peers. Intellectual disability, heart defects, and other cognitive and behavioural problems (e.g. ADHD, conduct disorder) are also common in children with FAS. Some children exposed to alcohol prenatally may not develop all the features of FAS but may experience milder physical, behavioural or cognitive problems (Kodituwakku &amp; Kodituwakku, 2014; Nulman, Ickowicz, Koren, &amp; Knittel-Keren, 2007).</td>
+</tr>
+<tr class="even">
+<td>Tobacco</td>
+<td>Babies of smokers tend to be small and premature, have respiratory problems, and sometimes show intellectual deficits or behavioural problems later in development (Campos, Bravo, &amp; Eugenin, 2009; Meyer et al., 2009; Stene-Larsen, Borge, &amp; Vollrath, 2009). Smoking and secondhand smoke in the pregnant woman’s environment can increase her risk of miscarriage (George, Granath, Johansson, Annerén, &amp; Cnattinguis, 2006).</td>
+</tr>
+<tr class="odd">
+<td>Stimulants</td>
+<td>Caffeine, found in coffee, tea and many sodas, is a stimulant and diuretic. As such, it can increase blood pressure, heart rate and urination. Heavy caffeine use has been linked to miscarriages, higher heart rates, growth restriction and irritability at birth, but does not seem to have long-lasting effects on development (Loomans et al., 2012).</td>
+</tr>
+<tr class="even">
+<td>Antiepileptic Drugs</td>
+<td>Some drugs used to treat seizures are associated with substantial risk of restricted growth, microcephaly, heart defects, neural tube defects, kidney disease, and cleft lip and palate. Newer antiepileptic drugs have lower malformation rates (Veiby, Daltveit, Engelsen, &amp; Gilhus, 2014).</td>
+</tr>
+<tr class="odd">
+<td>Aspirin / Ibuprofen</td>
+<td>An occasional low dose is okay, but used in large quantities, such drugs may cause neonatal bleeding and gastrointestinal discomfort. Large amounts of these over-the-counter pain relievers have been associated with low birth weight, prematurity and increased risk of miscarriage (Rebordosa, Kogevinas, Bech, Sørensen, &amp; Olsen, 2009).</td>
+</tr>
+<tr class="even">
+<td>Sex Hormones</td>
+<td>Birth control pills containing female hormones have been known to produce heart defects and cardiovascular problems, but today’s pill formulas are safer. Progesterone in drugs used to prevent miscarriage may masculinise the foetus. Diethylstilboestrol, once prescribed to prevent miscarriage, increases the risk of cervical cancer and creates infertility and pregnancy problems in exposed daughters (DES Action, 2013).</td>
+</tr>
+<tr class="odd">
+<td>Marijuana</td>
+<td>Heavy use of marijuana has been linked to premature birth, low birth weight and mild behavioural abnormalities such as irritability at birth. It may lead to small deficits in general intelligence as well as in some of the skills that contribute to higher-level problem solving, including sustained attention and cognitive flexibility (Wendell, 2013).</td>
+</tr>
+<tr class="even">
+<td>Narcotics</td>
+<td>Addiction to heroin, codeine, methadone or morphine increases the risk of premature delivery and low birth weight. The newborn is often addicted and experiences potentially fatal withdrawal symptoms (e.g. vomiting and convulsions). Longer-term cognitive deficits are sometimes evident (Shepard &amp; Lemire, 2010).</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="disease" class="section level3">
+<h3>Disease</h3>
+</div>
+<div id="environmental" class="section level3">
+<h3>Environmental</h3>
+</div>
+</div>
+<div id="section-1" class="section level2 unnumbered">
+<h2 class="unnumbered"></h2>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

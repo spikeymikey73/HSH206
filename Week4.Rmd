@@ -1,0 +1,86 @@
+---
+title: "Week 4"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Prenatal Stages {.tabset}
+
+### Germinal Period (1 - 14 days)
+
+- The **zygote** divides many times through **mitosis**, forming the **blastocyst**, a hollow ball of about 150 cells that is the size of the head of a pin.
+
+- Only about half of all fertilised ova are successfully implanted in the uterus.
+
+- Although estimates vary widely, up to one third of pregnancies are short-lived and end in miscarriage. Many of these early losses are because of genetic defects.
+
+| Day    | Event                                                                                                          |
+|:--------:|:---------------------------------------------------------------------------------------------------------------|
+| 1      | Fertilisation usually occurs within 24 hours of ovulation.                                                     |
+| 2      | The single-celled zygote begins to divide 24–36 hours after fertilisation.                                     |
+| 3 - 4  | The cellular mass has 16 cells and is called a morula; it is travelling down the fallopian tube to the uterus. |
+| 5      | An inner cell mass forms; the entire mass is called a blastocyst and is the size of a pinhead.                 |
+| 6 - 7  | The blastocyst attaches to the wall of the uterus.                                                             |
+| 8 - 14 | The blastocyst becomes fully embedded in the wall of the uterus. It now has about 250 cells.                   |
+
+### Embryonic Period (3 - 8 weeks)
+
+**Embryonic period**: Second phase of prenatal development, lasting from the third through the eighth week after conception, during which the major organs and anatomical structures begin to develop.
+
+**Placenta**: The organ that provides the oxygen and nourishment needs of the unborn child and eliminates its metabolic wastes.
+
+**Organogenesis**: The process, occurring during the embryonic period, in which every major organ begins to take shape.
+
+| Week  | Event                                                                                                                                                                                                                                                       |
+|:-----:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3     | Now an embryo, the person-to-be is just 2 mm long. It has become elongated, and three layers are emerging – the ectoderm, mesoderm and endoderm.                                                                                                            |
+| 4     | The embryo is so curved that the two ends almost touch. The outer layer (ectoderm) folds into the neural tube. From the mesoderm, a tiny heart forms and begins to beat. The endoderm differentiates into a gastrointestinal tract and lungs. Eyes develop. |
+| 5     | Ears, mouth and throat take shape. Arm and leg buds appear. The handplate from which fingers will emerge appears. The heart divides into two regions, and the brain differentiates into forebrain, midbrain and hindbrain.                                  |
+| 6 - 7 | The embryo is about 2.5 cm long. The heart divides into four chambers. Fingers emerge from the handplate, and primitive facial features become evident. The important process of sexual differentiation begins.                                             |
+| 8     | Most structures and organs are present. Ovaries and testes are evident. The embryo begins to straighten and assumes a more human appearance.                                                                                                                |
+
+### Foetal Period (9 - 38 weeks)
+
+**Proliferation**: An intense period of brain cell growth originating from stem cells undergoing rapid cell division.
+
+**Migration**: The process by which brain cells travel to their intended location in the nervous system via chemical signals or being pushed along with the growth and movement of other brain cells.
+
+**Differentiation**: The progressive transformation of brain cells that results in their taking on different characteristics and functions depending on where they end up in the brain.
+
+**Age of Viability**: A point at around the 24th prenatal week when a foetus may survive outside the uterus.
+
+| Week    | Event                                                                                                                                                                                                                                                                                                       |
+|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 9       | Bone tissue emerges, and the embryo becomes a foetus. The head of the foetus looks huge relative to the rest of the body – it takes up about half the total length of the foetus. The foetus can open and close its mouth and turn its head.                                                                |
+| 10 - 12 | Fingers and toes are clearly formed. External genitalia have developed. Movements have increased substantially – arms and legs kick vigorously, but the foetus is still too small for the mother to feel all these movements. The foetus also shows ‘breathing’ movements with its chest and some reflexes. |
+| 13 - 16 | The heartbeat should be audible with a stethoscope. Foetal movements may become apparent to the mother. The foetus is about 11.5 cm long, and the skeleton is becoming harder.                                                                                                                              |
+| 17 - 22 | Fingernails and toenails, hair, teeth buds and eyelashes grow. Brain development is phenomenal, and brainwaves are detectable.                                                                                                                                                                              |
+| 23 - 25 | These weeks mark the age of viability, when the foetus has a chance of survival outside the womb. It is about 30 cm long and weighs about half a kilogram.                                                                                                                                                  |
+| 26 - 32 | The foetus gains weight and its brain grows. The nervous system becomes better organised.                                                                                                                                                                                                                   |
+| 33 - 38 | The last 6 weeks of a full-term pregnancy bring further weight gain and brain activity. The lungs mature and begin to expand and contract.                                                                                                                                                                  |
+## {-}
+
+## Teratogens {.tabset}
+
+**Teratogen**: Any disease, drug or other environmental agent that can harm a developing foetus.
+
+### Drugs
+
+| Drug                | Effects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Alcohol             | Heavy prenatal exposure to alcohol can result in a cluster of symptoms referred to as foetal alcohol syndrome (FAS), in which affected children have a small head and distinctive facial abnormalities, and physically lag behind their peers. Intellectual disability, heart defects, and other cognitive and behavioural problems (e.g. ADHD, conduct disorder) are also common in children with FAS. Some children exposed to alcohol prenatally may not develop all the features of FAS but may experience milder physical, behavioural or cognitive problems (Kodituwakku & Kodituwakku, 2014; Nulman, Ickowicz, Koren, & Knittel-Keren, 2007). |
+| Tobacco             | Babies of smokers tend to be small and premature, have respiratory problems, and sometimes show intellectual deficits or behavioural problems later in development (Campos, Bravo, & Eugenin, 2009; Meyer et al., 2009; Stene-Larsen, Borge, & Vollrath, 2009). Smoking and secondhand smoke in the pregnant woman’s environment can increase her risk of miscarriage (George, Granath, Johansson, Annerén, & Cnattinguis, 2006).                                                                                                                                                                                                                    |
+| Stimulants          | Caffeine, found in coffee, tea and many sodas, is a stimulant and diuretic. As such, it can increase blood pressure, heart rate and urination. Heavy caffeine use has been linked to miscarriages, higher heart rates, growth restriction and irritability at birth, but does not seem to have long-lasting effects on development (Loomans et al., 2012).                                                                                                                                                                                                                                                                                           |
+| Antiepileptic Drugs | Some drugs used to treat seizures are associated with substantial risk of restricted growth, microcephaly, heart defects, neural tube defects, kidney disease, and cleft lip and palate. Newer antiepileptic drugs have lower malformation rates (Veiby, Daltveit, Engelsen, & Gilhus, 2014).                                                                                                                                                                                                                                                                                                                                                        |
+| Aspirin / Ibuprofen | An occasional low dose is okay, but used in large quantities, such drugs may cause neonatal bleeding and gastrointestinal discomfort. Large amounts of these over-the-counter pain relievers have been associated with low birth weight, prematurity and increased risk of miscarriage (Rebordosa, Kogevinas, Bech, Sørensen, & Olsen, 2009).                                                                                                                                                                                                                                                                                                        |
+| Sex Hormones        | Birth control pills containing female hormones have been known to produce heart defects and cardiovascular problems, but today’s pill formulas are safer. Progesterone in drugs used to prevent miscarriage may masculinise the foetus. Diethylstilboestrol, once prescribed to prevent miscarriage, increases the risk of cervical cancer and creates infertility and pregnancy problems in exposed daughters (DES Action, 2013).                                                                                                                                                                                                                   |
+| Marijuana           | Heavy use of marijuana has been linked to premature birth, low birth weight and mild behavioural abnormalities such as irritability at birth. It may lead to small deficits in general intelligence as well as in some of the skills that contribute to higher-level problem solving, including sustained attention and cognitive flexibility (Wendell, 2013).                                                                                                                                                                                                                                                                                       |
+| Narcotics           | Addiction to heroin, codeine, methadone or morphine increases the risk of premature delivery and low birth weight. The newborn is often addicted and experiences potentially fatal withdrawal symptoms (e.g. vomiting and convulsions). Longer-term cognitive deficits are sometimes evident (Shepard & Lemire, 2010).                                                                                                                                                                                                                                                                                                                               |
+### Disease
+
+### Environmental
+
+## {-}
