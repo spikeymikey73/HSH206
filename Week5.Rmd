@@ -1,0 +1,61 @@
+---
+title: "Week 5: The Dependant Years - Infancy"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Newborns
+
+Essentially newborns spend most of each day alternating among four different states:
+
+| State           | Description                                                                                                                                                                                                                                                                                                                                         |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Alert Activity  | The baby is calm with eyes open and attentive; the baby seems to be deliberately inspecting the environment.                                                                                                                                                                                                                                        |
+| Waking Activity | The baby’s eyes are open but they seem unfocused; the arms or legs move in bursts of uncoordinated motion.                                                                                                                                                                                                                                          |
+| Crying          | The baby cries vigorously, usually accompanied by agitated but uncoordinated motion. Newborns spend about 2–3 hours each day crying or on the verge of crying. Not all crying is considered the same – it represents the newborn’s first attempt at interpersonal communication with its parents.                                                   |
+| Sleeping        | The baby alternates from being still and breathing regularly to moving gently and breathing irregularly; eyes are closed throughout. Newborns sleep about 16–18 hours daily but they typically go through a cycle of wakefulness and sleep about every 4 hours. As babies grow, the sleep-wake cycle shifts to correspond with the day-night cycle. |
+
+## Developmental Areas {.tabset}
+
+### Physical
+
+#### Rapid Physical Growth
+
+Newborns:
+
+* Typically about 50cm long, weighing 3 - 3.5kg
+* Size and weight is more related to prenatal environment than parent's genes (can be stunted if carried in a poor prenatal environment)
+* Characteristics are reduced in size and weight in the case of twins due to "space" constraints of the womb.
+
+In the first few months:
+* Infants gain about 30g in weight per day and about 2.5cm in length per month
+* By Age 2 weigh about 12 - 14kg, and are at about 50% of their adult height.
+* Growth occurs in "fits and starts", adding up substantially, with 90 - 95% of their days showing no growth.
+* Infants whose growth in weight outpaces their growth in length (even for a short time) are potentially prone to obesity.
+* Bones are soft and pliable and unable to support significant weight, gradually ossifying with the ingestion of calcium and other minerals.
+* Additional bones grow through this process and become more interconnected.
+* Muscle growth begins at this time.
+
+#### The Infant Brain
+
+* Typically weighs about 25% of its adult mass at birth, 75% at 2 years, and 90% at age 5.
+* Growth after birth is primarily about connecting existing neurons and forging more and more connections (dendrites).
+* 
+
+
+#### Newborn Capabilities
+
+
+#### Infant Motor Development
+
+
+#### Health and Wellness in Infancy
+
+### Cognitive
+
+### Psychosocial
+
+## {-}

@@ -1,15 +1,6 @@
 ---
-title: "Week 1"
+title: 'Week 1: What is Human Development?'
 output: html_document
----
-
----
-title: 'Week 1: What is Human Development'
-output:
-  html_document:
-    number_sections: yes
-  pdf_document:
-    number_sections: yes
 ---
 
 ## How should we think about Human Development

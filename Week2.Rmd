@@ -1,5 +1,5 @@
 ---
-title: "Week 2: Theories of Human Development"
+title: "Week 2: Theoretical Approaches to Human Development"
 output: html_document
 ---
 
