@@ -4,7 +4,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+library(tippy)
 ```
 
 ## Newborns
@@ -43,7 +44,8 @@ In the first few months:
 
 * Typically weighs about 25% of its adult mass at birth, 75% at 2 years, and 90% at age 5.
 * Growth after birth is primarily about connecting existing neurons and forging more and more connections (dendrites).
-* 
+* Synaptogenesis
+* New stuff `r tippy("synaptic pruning", tooltip = "The removal of unnecessary synapses, or connections, between neurons.")` and other stuff.
 
 
 #### Newborn Capabilities

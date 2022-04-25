@@ -20,6 +20,6 @@ output: html_document
 | 11 | 23 MAY 22 | The third age - Older adulthood | |
 | 12 | 30 MAY 22 | Study period Revision for AT3 due by Friday 3 June 22 |
 
-Intra-trimester break: Friday 15 APR - Sunday 24 APR 22 (inclusive)  
+Intra-trimester break: Friday 15 APR - Sunday 24 APR 22 (inclusive)
 
-ANZAC Day Public Holiday (University closed) - Monday 25 APR 22 Assessment 2 (Peer and self assessment) due by 8:00pm AEST  
+ANZAC Day Public Holiday (University closed) - Monday 25 APR 22 Assessment 2 (Peer and self assessment) due by 8:00pm AEST
