@@ -1,8 +1,7 @@
 ---
-title: "HSH206"
+title: "HSH206: Human Development and Healthy Families"
 description: |
   Human Development and Healthy Families
-output: html_document
 ---
 
 | Week | Commencing | Topic | Assessment due date |
@@ -11,10 +10,10 @@ output: html_document
 | 2 | 14 MAR 22 | Theoretical approaches to human development | |
 | 3 | 21 MAR 22 | Family development theories | |
 | 4 | 28 MAR 22 | Prenatal development and birth | |
-| 5 | 4 APR 22 | The dependent years -Infancy | AT2: Group/Team Charter due by 8:00pm 7 APR 22 |
+| 5 | 4 APR 22 | The dependent years - Infancy | AT2: Group/Team Charter due by 8:00pm 7 APR 22 |
 | 6 | 11 APR 22 | The dependent years - Early childhood | AT1 due by 8:00pm 11 APR 22 |
 | 7 | 25 APR 22 | The dependent years - Middle childhood | |
-| 8 | 2 MAY 22 | Increasing independence -Adolescence | |
+| 8 | 2 MAY 22 | Increasing independence - Adolescence | |
 | 9 | 9 MAY 22 | The independence years - Young adulthood | AT2: Slides and narration due by 8:00pm 12 MAY 22 |
 | 10 | 16 MAY 22 | The independence years - Middle adulthood | |
 | 11 | 23 MAY 22 | The third age - Older adulthood | |

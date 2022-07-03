@@ -1,0 +1,17 @@
+---
+title: "Week 10: The Independence Years - Middle Adulthood"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Developmental Areas {.tabset}
+
+### Physical
+
+### Cognitive
+
+### Psychosocial
+
+## {-}

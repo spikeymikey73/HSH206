@@ -1,0 +1,17 @@
+---
+title: "Week 7: The dependent years - Middle childhood"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Developmental Areas {.tabset}
+
+### Physical
+
+### Cognitive
+
+### Psychosocial
+
+## {-}

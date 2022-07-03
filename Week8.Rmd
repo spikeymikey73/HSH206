@@ -1,0 +1,17 @@
+---
+title: "Week 8: Increasing independence - Adolescence"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Developmental Areas {.tabset}
+
+### Physical
+
+### Cognitive
+
+### Psychosocial
+
+## {-}

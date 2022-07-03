@@ -1,0 +1,17 @@
+---
+title: "Week 11: The Third Age - Older Adulthood"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Developmental Areas {.tabset}
+
+### Physical
+
+### Cognitive
+
+### Psychosocial
+
+## {-}
